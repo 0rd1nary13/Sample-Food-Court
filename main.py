@@ -1,3 +1,9 @@
+# This program is a simple food ordering system for a food court. The user can order a burger, delete an item from
+# the order, display the current order, display the menu, and exit the system. The program will calculate the total
+# cost of the order and save the order to a file. The program will continue to take orders until the user decides to
+# exit the system.
+#Created by team Stack underflow on March 12 2024
+#Di Zhang, Huiguang Ma
 
 from Order import Order
 
