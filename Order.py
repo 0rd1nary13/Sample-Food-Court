@@ -1,7 +1,7 @@
 import time
 import datetime
 from person import Student, Staff
-from burgers import DeAnzaBurger, BaconCheese, MushroomSwiss, WesternBurger, DonCaliBurger
+from burgers import Burger
 
 
 class Order:
@@ -13,11 +13,11 @@ class Order:
         self.name = "De Anza Food Court"
 
         self._menu_items = {
-            DeAnzaBurger().name: DeAnzaBurger().price,
-            BaconCheese().name: BaconCheese().price,
-            MushroomSwiss().name: MushroomSwiss().price,
-            WesternBurger().name: WesternBurger().price,
-            DonCaliBurger().name: DonCaliBurger().price
+            "de_anza_burger": Burger("De Anza Burger", 1, 5.25),
+            "bacon_cheese": Burger("Bacon Cheese", 2, 5.75), 
+            "mushroom_swiss": Burger("Mushroom Swiss", 3, 5.95),
+            "western_burger": Burger("Western Burger", 4, 5.95),
+            "don_cali_burger": Burger("Don Cali Burger", 5, 5.95)
         }
 
         self._order_dict = {key: 0 for key in self._menu_items}
