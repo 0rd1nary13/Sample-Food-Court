@@ -1,0 +1,7 @@
+            Here is your order detail:
+**********************************************************
+Bacon Cheese - Price: $5.75, Quantity: 6, Cost: $34.50
+**********************************************************
+Total before tax: $34.50
+Tax Amount: $0.00
+Total price after tax: $34.50
